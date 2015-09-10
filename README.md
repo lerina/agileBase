@@ -13,10 +13,11 @@ This is the common setup to host various apps and components
 
 ## Starting with the project template
 
+
 ### First time
-mkdir demo; cd demo; 
-django-admin startproject --template=~/Projects/agiletemplate --extension=env demo 
-cd demo; python 1stRun.py ; python manage.py runserver
+> mkdir demo; cd demo; 
+> django-admin startproject --template=https://github.com/lerina/agileBase --extension=env demo 
+> cd demo; pip install -r requirements.txt; python 1stRun.py ; python manage.py runserver
 
 ----
 
