@@ -8,7 +8,7 @@ USAGE:
     python 1stRun.py
 
 Don't forget to remove/delete 1stRun on production server
-cd .. ; rm -fr demo; django-admin startproject --template=~/Projects/agiletemplate --extension=env demo ;cd demo;python 1stRun.py ;python manage.py runserver
+cd .. ; rm -fr demo; django-admin startproject --template=https://github.com/lerina/agileBase/archive/master.zip --extension=env demo ; cd demo; python 1stRun.py ; python manage.py runserver
 """
 import subprocess
 
