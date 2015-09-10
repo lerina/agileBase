@@ -1,5 +1,9 @@
 # agiletemplate
-template for django nano projects
+Template for django nano projects
+
+Part of my toolkit to teach `code and computer think` to empowers people 
+in developing areas of the worlds. 
+
 
 ## What do you get ?
 minimal file structure
