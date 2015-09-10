@@ -19,8 +19,20 @@ You'll need Django to start.
 
 ### First time
 
+Let Django get the project
 > django-admin startproject --template=https://github.com/lerina/agileBase/archive/master.zip --extension=env demo
-> cd demo; pip install -r requirements.txt; python 1stRun.py ; python manage.py runserver
+
+Set it up
+> cd demo; pip install -r requirements.txt; cp sample_local.env ../local.env
+
+Create the dev admin (admin.admin) and fire-it-up
+> python 1stRun.py ; python manage.py runserver
+
+Open the browser at http://127.0.0.1:8000/
+
+
+Before working on your project please edit local.env
+
 
 ----
 
